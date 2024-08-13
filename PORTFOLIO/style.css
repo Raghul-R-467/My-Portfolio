@@ -1,0 +1,834 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.resume-display-bg{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+    display: none;
+}
+.resume-display{
+    position: fixed;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: auto;
+    height: 90vh;
+    left: 30%;
+    top: 2%;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    border-style: groove;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.............................. HOME ..............................*/
+.home{
+    background-image: url(bg-orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.rr{
+    margin-left: 50px;
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+}
+.show-nav-mobile{
+    rotate: 90deg;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 2px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.navlist{
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+    display: flex;
+}
+.navlist button{
+    all: unset;
+}
+.listitm a{
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-right: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+}
+.listitm a:hover{
+    transition: .5s;
+    background-color: white;
+    color: black;
+}
+.home-obj{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img{
+    border-radius: 24px;
+    border-style: groove;
+    margin-right: 100px;
+}
+.home-img img:hover{
+    box-shadow: 0px 0px 20px 20px rgba(128, 128, 128, 0.611);
+    transition: 0.5s;
+}
+.homedetail{
+    font-size: 30px;
+    text-align: left;
+}
+.hello{
+    color: white;
+    font-family: cursive;
+}
+.hello span{
+    margin-left: 30px;
+}
+.raghul{
+    color: transparent;
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 10px;
+    background: url(ANML0082.JPG);
+    background-size: cover;
+    background-clip: text;
+}
+.auto-type{
+    color: white;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.hire{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 3px 10px 3px 10px;
+    background-color: orangered;
+    margin-top: 20px;
+}
+.hire:hover{
+    box-shadow: 0 0 10px 10px orangered;
+    transform: scale(1.10);
+    transition: .5s;
+    background-color: white;
+}
+.hire a{
+    color: white;
+    font-weight: 750;
+    text-decoration: none;   
+}
+.hire a:hover{
+    color: orangered;
+}
+.icons{
+    margin-top: 30px;
+}
+.icons svg{
+    background-image: url(ANML0082.JPG);
+    padding: 5px;
+    border-radius: 12px;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.icons svg:hover{
+    transition: .5s;
+    transform: scale(1.25);
+}
+
+/*.............................. ABOUT ..............................*/
+.about{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -50px;
+}
+.abt-left{
+    margin-right: 200px;
+}
+.abt-tit{
+    font-size: 80px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 0px;
+    margin-left: 150px;
+}
+.abt-summary{
+    width: 650px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 150px;
+}
+.abt-list{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 8%;
+}
+.bio-data{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bio-ans{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.bio-ans a{
+    text-decoration: none;
+}
+.bio-itm{
+    margin-top: 15px;   
+}
+.bio-itm-ans{
+    margin-top: 15px;
+}
+.resume{
+    border-radius: 7px;
+    padding: 3px 10px 3px 10px;
+    background-color: orangered;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+.resume:hover{
+    box-shadow: 0 0 10px 10px orangered;
+    transform: scale(1.10);
+    transition: .5s;
+    background-color: white;
+}
+.resume{
+    color: white;
+    font-weight: 750;
+    font-size: 20px;
+    text-decoration: none;   
+}
+.resume:hover{
+    color: orangered;
+    background-color: white;
+}
+.abt-right img{
+    border-radius: 24px;
+    border-style: groove;
+    border-width: 3px;
+}
+.abt-right img:hover{
+    box-shadow: 0 0 20px 20px rgba(255, 68, 0, 0.566);
+    transform: scale(1.10);
+    transition: .5s;
+}
+
+/*.............................. EDUCATION ..............................*/
+.education{
+    background-image: url(bg-orange.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edu-left{
+    margin-right: 150px;
+}
+.edu-left-tit{
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+}
+.edu-left p{
+    color: white;
+    font-size: 30px;
+    margin-top: 10%;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 12px;
+}
+.edu-left p:hover{
+    background-color: white;
+    color: orangered;
+    box-shadow: 0 0 15px 15px rgb(255, 68, 0);
+    transition: 0.5s;
+}
+.edu-right-skills{
+    margin-left: 150px;
+}
+.skills-tit{
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+}
+.icons img{
+    height: 120px;
+    width: 120px;
+    margin-top: 14%;
+    margin-right: 70px;
+}
+.icons img:hover{
+    transform: scale(1.10);
+    transition: .5s;
+}
+.icons span{
+    margin-left: 100px;
+}
+.icons i{
+    margin-left: 200px;
+}
+
+/*.............................. PROJECT ..............................*/
+.project{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.proj-tit{
+    font-size: 80px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.proj-cards{
+    height: 80vh;
+    width: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.proj-cards div{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-body img{
+    width: 30rem;
+    border-radius: 24px;
+}
+.card{
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: darkgray;
+    padding: 10px;
+    margin-left: 30px;
+}
+.card:hover{
+    box-shadow: 0 0 10px 10px orangered;
+    transition: .5s;
+    border-radius: 12px;
+}
+.card-text{
+    width: 30rem;
+    overflow: hidden;
+}
+.proj-img img{
+    margin-top: 40px;
+}
+.img1{
+    margin-left: 75px;
+    border-radius: 12px;
+}
+.img2{
+    margin-left: 80px;
+    border-radius: 12px;
+}
+.img3{
+    margin-left: 80px;
+    border-radius: 12px;
+}
+
+/*.............................. CONTACT ..............................*/
+.contact{
+    background-image: url(bg-orange-cont.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.contact-tit{
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+.contact-form{
+    border-style: groove;
+    border-radius: 24px;
+    width: fit-content;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 450px;
+    margin-top: 8%;
+    padding: 20px;
+}
+.contact-form input{
+    margin-top: 30px;
+}
+.contact-name{
+    height: 20px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+.contact-mail{
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+}
+.contact-msg{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.send-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: orangered;
+    color: white;
+    border-radius: 12px;
+    margin-top: 30px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 38%;
+}
+
+
+
+
+@media (max-width:426px) {
+    /*.............................. HOME ..............................*/
+    .home{
+        background-color: rgb(0, 0, 59);
+        width: 100%;
+        height: 580px;
+        position: absolute;
+        z-index: 1;
+    }
+    .rr{
+        margin-top: 10px;
+        font-size: 50px;
+        color: white;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+    }   
+    .show-nav-mobile{
+        rotate: 90deg;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 2px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        float: right;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        display: block;
+    }
+    .navlist{
+        display: flex;
+        flex-grow: inherit;
+        flex-direction: column;
+        list-style: none;
+        margin-top: 20px;
+        position: absolute;
+        top: 15px;
+        right: 38px;
+        z-index: 2;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 2px ;
+        width: 120px;
+        height: 110px;
+        display: none;
+    }
+    .listitm a{
+        color: black;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-right: 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 2px 5px 2px 5px;
+    }
+    .listitm a:hover{
+        transition: .5s;
+        background-color: black;
+        color: white;
+    }
+    .home-obj{
+        height: 85vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-img img{
+        border-radius: 24px;
+        border-style: groove;
+        width: 300px;
+        height: 210px;
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .homedetail{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hello{
+        color: white;
+        font-family: cursive;
+    }
+    .hello span{
+        margin-left: 10px;
+    }
+    .raghul{
+        color: transparent;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-top: 10px;
+        background: url(ANML0082.JPG);
+        background-size: cover;
+        background-clip: text;
+    }
+    .auto-type{
+        color: white;
+        font-family: cursive;
+        margin-top: 10px;
+    }
+    .hire{
+        font-size: 15px;
+        border-radius: 7px;
+        padding: 2px 6px 2px 6px;
+        background-color: orangered;
+        margin-top: 20px;
+    }
+    .hire:hover{
+        box-shadow: 0 0 10px 10px orangered;
+        transform: scale(1.10);
+        transition: .5s;
+        background-color: white;
+    }
+    .hire a{
+        color: white;
+        font-weight: 750;
+        text-decoration: none;   
+    }
+    .icons{
+        margin-top: 20px;
+    }
+    .icons svg{
+        background-image: url(ANML0082.JPG);
+        padding: 5px;
+        border-radius: 12px;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    .icons svg:hover{
+        transition: .5s;
+        transform: scale(1.25);
+    }
+
+    /*.............................. ABOUT ..............................*/
+    .about{
+        background-color: white;
+        height: 900px;
+        /* max-width: 420px;
+        min-width: 320px; */
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 620px;
+        z-index: 1;
+    } 
+    .abt-left{
+        display: block;
+        position: relative;
+        left: -100px;
+    }   
+    .abt-tit{
+        font-size: 50px;
+        font-weight: bolder;
+        color: black;
+        margin-top: 0px;
+        margin-left: 230px;
+        display: flex;
+        text-align: center;
+    }
+    .abt-summary{
+        width: 300px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: left;
+        position: relative;
+        display: flex;
+        justify-content: center;    
+    }
+    .abt-list{
+        display: flex;
+        margin-left: 180px;
+        margin-top: 8%;
+    }
+    .bio-data{
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        width: 500px;
+    }
+    .bio-ans{
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10%;
+    }
+    .resume{
+        width: 150px;
+        border-radius: 7px;
+        padding: 3px 10px 3px 10px;
+        background-color: orangered;
+        margin: 8%;
+        margin-left: 150%;
+    }
+    .resume a{
+        color: white;
+        font-weight: 750;
+        font-size: 15px;
+        text-decoration: none;   
+    }
+    .abt-right img{
+        border-radius: 24px;
+        border-style: groove;
+        border-width: 2px;
+        width: 250px;
+        margin-left: 30%;
+    }
+    
+
+    /*.............................. EDUCATION ..............................*/
+    .education{
+        background-image: url(bg-orange.jpg);
+        height: 970px;
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 1430px;
+    }
+    .edu-left{
+        margin-right: 0px;
+    }
+    .edu-left-tit{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        color: white;
+        padding-top: 20px;
+    }
+    .edu-left p{
+        color: white;
+        font-size: 20px;
+        margin-top: 5%;
+        font-weight: 500;
+        padding: 10px;
+        border-radius: 12px;
+    }
+    .edu-right-skills{
+        margin-left: 0px;
+    }
+    .skills-tit{
+        margin-top: 20px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        color: white;
+    }
+    .icons img{
+        height: 80px;
+        width: 80px;
+        margin-top: 14%;
+        margin-right: 30px;
+        display: ruby;
+        justify-content: center;
+    }
+    .icons span{
+        margin-left: 100px;
+    }
+    .icons i{
+        margin-left: 200px;
+    }
+
+    /*.............................. PROJECT ..............................*/
+    .project{
+        background-color: white;
+        height: 600px;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 1500px;
+    }
+    .proj-tit{
+        font-size: 50px;
+        font-weight: bolder;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .proj-cards{
+        width: 22.5rem;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .proj-cards div{
+        display: block;margin-bottom: 20px;
+    }
+    .card-body img{
+        width: 19.8rem;
+        border-radius: 24px;
+    }
+    .card{
+        border-style: solid;
+        border-radius: 12px;
+        border-width: 1px;
+        border-color: darkgray;
+        padding: 5px;
+    }
+    .card-text{
+        width: 19.8rem;
+        overflow: hidden;
+    }
+    .proj-img img{
+        margin-top: 0;
+    }
+    .img1{
+        margin-left: 0px;
+        border-radius: 12px;
+    }
+    .img2{
+        margin-left: 0px;
+        border-radius: 12px;
+    }
+    .img3{
+        margin-left: 0px;
+        border-radius: 12px;
+    }
+
+    /*.............................. CONTACT ..............................*/
+    .contact{
+        background-image: url(bg-orange.jpg);
+        height: 600px;
+        width: 100%;
+        position: relative;
+        top: 2800px;
+    }
+    .contact-tit{
+        font-size: 50px;
+        font-weight: bolder;
+        color: white;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-form{
+        border-style: groove;
+        border-radius: 24px;
+        width: fit-content;
+        display: block;
+        padding: 20px;
+        float: left;
+        margin-left: 30px;
+    }
+    .contact-form input{
+        margin-top: 30px;
+    }
+    .contact-name{
+        height: 20px;
+        width: 250px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 12px;
+    }
+    .contact-mail{
+        width: 250px;
+        height: 20px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 12px;
+    }
+    .contact-msg{
+        width: 250px;
+        height: 50px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 12px;
+        margin-top: 30px;
+    }
+    .send-btn{
+        font-size: 18px;
+        font-weight: 600;
+        background-color: orangered;
+        color: white;
+        border-radius: 12px;
+        margin-top: 30px;
+        padding: 2px 10px 2px 10px;
+        margin-left: 38%;
+    }
+    
+}
